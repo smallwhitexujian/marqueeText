@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Privacy Policy</title>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+</head>
+
+<script>
+    (function () {
+        function resize() {
+            window.fontSizeNum = 100 * (document.body && document.body.clientWidth || document.documentElement && document.documentElement
+                .clientWidth) / 375;
+            document.documentElement.style.fontSize = Math.min(window.fontSizeNum, 150) + "px";
+        }
+        resize();
+        window.onresize = resize;
+    }());
+</script>
+<style>
+    body {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0 0.15rem 30px;
+        font-size: 0.13rem;
+
+    }
+
+    h2 {
+        font-size: 0.2rem;
+        text-align: center;
+        line-height: 0.5rem;
+        margin: 0.15rem;
+        margin-bottom: 0rem;
+    }
+</style>
+
+<body>
+    <h2>Privacy Policy</h2>
+    <p>
+        The Kigo application, its affiliates ("we"), are well aware of the importance of personal information to you. We
+        will protect your personal information and privacy in accordance with laws and regulations. We have formulated
+        this "Privacy Policy" with a special reminder: I hope you read and understand this privacy policy carefully
+        before using Kigo and related services, so that you can make an appropriate choice.
+    </p>
+</body>
+</html>
